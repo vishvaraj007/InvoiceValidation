@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Invoice Validation Suite">
+ 
+ <listeners>
+    <listener class-name="validator.MyListener"/>
+</listeners>
+  
+  <test name="Invoice Data Check">
+    <classes>
+      <class name="validator.InvoiceValidationTest"/>
+    </classes>
+  </test>
+</suite>
