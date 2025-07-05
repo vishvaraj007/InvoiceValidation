@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-03T12:54:55 IST" name="Surefire suite" finished-at="2025-07-03T12:54:56 IST" duration-ms="1014">
+    <groups>
+    </groups>
+    <test started-at="2025-07-03T12:54:55 IST" name="Surefire test" finished-at="2025-07-03T12:54:56 IST" duration-ms="1014">
+      <class name="validator.InvoiceValidationTest">
+        <test-method signature="validateInvoice(java.lang.String,java.util.Map)[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="validateInvoice" data-provider="invoiceData" finished-at="2025-07-03T12:54:56 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoice_Row_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=0, Sum of allowances on document level=0, Total Fee / Charge Amount=0, Total Net Amount=0, Total Excluding Tax=0, Total Tax Amount=0, Total Including Tax=0, Paid amount=, Rounding amount=, Total Payable Amount=0, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=1, Doc Total Taxable Amount Per Tax Type=0, Doc TaxCategory Id=06, Doc Total Tax Amount Per Tax Type=0, Doc TAX category rate=0, Details of Tax Exemption=, InvoiceLineID=1, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=0, Quantity=1, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=0, Tax Amount=0, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=0, Template Id=13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method signature="validateInvoice(java.lang.String,java.util.Map)[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="validateInvoice" data-provider="invoiceData" finished-at="2025-07-03T12:54:56 IST" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoice_Row_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=01, Supplier Bank Account Number=TEMP-123, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=C262072927020, Supplier Business Registration Number=BRN, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=11011, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456789, Supplier Address Line 1=123 Tech Park, Supplier Address Line 2=Block B, Floor 2, Supplier Postal Zone=Nil, Supplier City Name=43000, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=530, Buyer Contact Number=0, Buyer Address Line 0=530, Buyer Address Line 1=0, Buyer Address Line 2=0, Buyer Postal Zone=0, Buyer City Name=1, Buyer State=500, Buyer Country=SR01, Sum of Invoice line net amount=30, Sum of allowances on document level=6, Total Fee / Charge Amount=Exempted Goods, Total Net Amount=Line001, Total Excluding Tax=1001, Total Tax Amount=Goods, Total Including Tax=Lenovo Laptop, Paid amount=MYS, Rounding amount=500, Total Payable Amount=1, Total Discount Value=EA, Invoice Additional Discount Amount=500, Invoice Additional Fee Amount=SST, Total number of invoice lines=SR, Doc Total Taxable Amount Per Tax Type=6, Doc TaxCategory Id=30, Doc Total Tax Amount Per Tax Type=Zero-rated under Section 56, Doc TAX category rate=500, Details of Tax Exemption=60123456789, InvoiceLineID=500, ClassificationCode=500, ClassificationClass=SR01, Description of Product or Service=TAXSCHEME01, Country of Origin=MYAGENCYID, Unit Price=MYAGENCYCODE, Quantity=SST, Measurement=SR, Subtotal=Ram Kumar, SST Tax Category=201901029037, Tax Type=SST123456, Tax Rate=Mr. Ram, Tax Amount=ram.kumar@email.com, Line Total Excluding Tax=Tower B, Line Invoice line net amount=Suite 12, Net Amount=50450, TaxCategory Id=C26072927020, TaxCategoryschemeID=Individual, TaxCategoryschemeAgencyID=Local, TaxCategoryschemeAgencycode=C26072927020, Amount Exempted from Tax=Street 1, Template Id=Kuala Lumpur}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[â�Œ Invoice failed: Invoice_Row_2 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_2 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method signature="validateInvoice(java.lang.String,java.util.Map)[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="validateInvoice" data-provider="invoiceData" finished-at="2025-07-03T12:54:56 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoice_Row_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice Date=06-12-2025, e-Invoice Time=23:59:59, Invoice Currency Code=MYR, Payment Mode=2, Supplier Bank Account Number=TEMP-124, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901235, Supplier Business Registration Number=Passport, Supplier SST Registration Number=A123456790, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=1111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456790, Supplier Address Line 1=124 Tech Park, Supplier Address Line 2=Block B, Floor 3, Supplier Postal Zone=Nil, Supplier City Name=43001, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MY, Buyer contact point (Person Name)=PCS, Buyer e-mail=, Buyer Contact Number=, Buyer Address Line 0=, Buyer Address Line 1=, Buyer Address Line 2=, Buyer Postal Zone=, Buyer City Name=, Buyer State=, Buyer Country=, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=, ClassificationClass=, Description of Product or Service=, Country of Origin=, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[â�Œ Invoice failed: Invoice_Row_3 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_3 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method signature="validateInvoice(java.lang.String,java.util.Map)[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="validateInvoice" data-provider="invoiceData" finished-at="2025-07-03T12:54:56 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoice_Row_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice Date=06-15-2025, e-Invoice Time=12:65:00, Invoice Currency Code=MYR, Payment Mode=3.0, Supplier Bank Account Number=TEMP-125, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901236, Supplier Business Registration Number=SST, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=SST123456791, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=10111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456791, Supplier Address Line 1=125 Tech Park, Supplier Address Line 2=Block B, Floor 4, Supplier Postal Zone=Nil, Supplier City Name=43002, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=9999999999, Buyer Contact Number=2, Buyer Address Line 0=1E+15, Buyer Address Line 1=9999999999, Buyer Address Line 2=1E+18, Buyer Postal Zone=1E+14, Buyer City Name=9999999999, Buyer State=1E+22, Buyer Country=SR1234567890, Sum of Invoice line net amount=1E+22, Sum of allowances on document level=1.23457E+19, Total Fee / Charge Amount=X...X, Total Net Amount=LINE1234567890123456789012345, Total Excluding Tax=10000000000, Total Tax Amount=TOOLONGCLASS, Total Including Tax=A...A (501 chars), Paid amount=MYSIA, Rounding amount=999999.99, Total Payable Amount=9999999, Total Discount Value=MEGA, Invoice Additional Discount Amount=999999.9, Invoice Additional Fee Amount=XST, Total number of invoice lines=XX, Doc Total Taxable Amount Per Tax Type=999, Doc TaxCategory Id=999999, Doc Total Tax Amount Per Tax Type=Invalid Reason, Doc TAX category rate=1E+15, Details of Tax Exemption=9223372036854775807, InvoiceLineID=9999999, ClassificationCode=999999.99, ClassificationClass=XSRLONG, Description of Product or Service=SCHMEXTRA, Country of Origin=AGENCYTOOLONG123, Unit Price=AGENCYCODETOOLONG123, Quantity=XST, Measurement=XX, Subtotal=NameWithMoreThan300Characters_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, SST Tax Category=ID09876543211234567890, Tax Type=SSTSSTSSTSSTSSTSSTSSTSSTSSTSSTSSTS, Tax Rate=Mr. Big Boss, Tax Amount=, Line Total Excluding Tax=Line1, Line Invoice line net amount=Line2, Net Amount=12345678901, TaxCategory Id=12345678901234, TaxCategoryschemeID=@!#WrongCat, TaxCategoryschemeAgencyID=Sub!!, TaxCategoryschemeAgencycode=BRN1234567890123456789012345, Amount Exempted from Tax=Lonaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Template Id=CityWithExcessLengthMoreThan100}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[â�Œ Invoice failed: Invoice_Row_4 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_4 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method signature="validateInvoice(java.lang.String,java.util.Map)[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="validateInvoice" data-provider="invoiceData" finished-at="2025-07-03T12:54:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoice_Row_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvoice -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:validator.InvoiceValidationTest@197d671]" started-at="2025-07-03T12:54:56 IST" name="afterSuite" finished-at="2025-07-03T12:54:56 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- validator.InvoiceValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

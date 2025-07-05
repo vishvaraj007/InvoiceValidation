@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Invoice_Validation_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Invoice Validation Suite</span>
+              <span class="suite-name border-failed">Invoice Validation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 5 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Invoice_Validation_Suite" class="hide-methods failed suite-Invoice_Validation_Suite"> (hide)</a> <!-- hide-methods failed suite-Invoice_Validation_Suite -->
+                      <a href="#" panel-name="suite-Invoice_Validation_Suite" class="show-methods failed suite-Invoice_Validation_Suite"> (show)</a> <!-- show-methods failed suite-Invoice_Validation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Invoice_Validation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice D...)">validateInvoice(Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_7, {e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice D...)">validateInvoice(Invoice_Row_7, {e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice D...)">validateInvoice(Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_6, {e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice D...)">validateInvoice(Invoice_Row_6, {e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice D...)">validateInvoice(Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Invoice_Validation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +137,12 @@
                     <div class="method-list-content passed suite-Invoice_Validation_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(run)">validateInvoice(run)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)">validateInvoice(Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Validation_Suite" title="validator.InvoiceValidationTest" class="method navigator-link" hash-for-method="validateInvoice(Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)">validateInvoice(Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Invoice_Validation_Suite -->
@@ -118,6 +157,79 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Invoice_Validation_Suite" class="panel Invoice_Validation_Suite">
+          <div class="suite-Invoice_Validation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">validator.InvoiceValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice D...)">
+                  </a> <!-- validateInvoice(Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice D...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_2,{e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=01, Supplier Bank Account Number=TEMP-123, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=C262072927020, Supplier Business Registration Number=BRN, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=11011, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456789, Supplier Address Line 1=123 Tech Park, Supplier Address Line 2=Block B, Floor 2, Supplier Postal Zone=Nil, Supplier City Name=43000, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=530, Buyer Contact Number=0, Buyer Address Line 0=530, Buyer Address Line 1=0, Buyer Address Line 2=0, Buyer Postal Zone=0, Buyer City Name=1, Buyer State=500, Buyer Country=SR01, Sum of Invoice line net amount=30, Sum of allowances on document level=6, Total Fee / Charge Amount=Exempted Goods, Total Net Amount=Line001, Total Excluding Tax=1001, Total Tax Amount=Goods, Total Including Tax=Lenovo Laptop, Paid amount=MYS, Rounding amount=500, Total Payable Amount=1, Total Discount Value=EA, Invoice Additional Discount Amount=500, Invoice Additional Fee Amount=SST, Total number of invoice lines=SR, Doc Total Taxable Amount Per Tax Type=6, Doc TaxCategory Id=30, Doc Total Tax Amount Per Tax Type=Zero-rated under Section 56, Doc TAX category rate=500, Details of Tax Exemption=60123456789, InvoiceLineID=500, ClassificationCode=500, ClassificationClass=SR01, Description of Product or Service=TAXSCHEME01, Country of Origin=MYAGENCYID, Unit Price=MYAGENCYCODE, Quantity=SST, Measurement=SR, Subtotal=Ram Kumar, SST Tax Category=201901029037, Tax Type=SST123456, Tax Rate=Mr. Ram, Tax Amount=ram.kumar@email.com, Line Total Excluding Tax=Tower B, Line Invoice line net amount=Suite 12, Net Amount=50450, TaxCategory Id=C26072927020, TaxCategoryschemeID=Individual, TaxCategoryschemeAgencyID=Local, TaxCategoryschemeAgencycode=C26072927020, Amount Exempted from Tax=Street 1, Template Id=Kuala Lumpur})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Invoice failed: Invoice_Row_2 expected [true] but found [false]
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_7, {e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice D...)">
+                  </a> <!-- validateInvoice(Invoice_Row_7, {e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice D...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_7,{e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice Date=06-15-2028, e-Invoice Time=12:65:03, Invoice Currency Code=MYR, Payment Mode=, Supplier Bank Account Number=, Supplier Name=, Supplier TIN=, Supplier Category=, Supplier Business Registration Number=, Supplier SST Registration Number=, Supplier Tourism Tax Registration Number=, Supplier e-mail=, Supplier Malaysia Standard Industrial Classification (MSIC) Code=, Supplier Business Activity Description=, Supplier Contact Number=, Supplier Address Line 0=, Supplier Address Line 1=, Supplier Address Line 2=, Supplier Postal Zone=, Supplier City Name=, Supplier State=, Supplier Country=, Buyer Name=, Buyer TIN=, Buyer Category=, Buyer Subcategory=, Buyer Business Registration Number=, Buyer SST Registration Number=, Buyer contact point (Person Name)=, Buyer e-mail=, Buyer Contact Number=, Buyer Address Line 0=, Buyer Address Line 1=, Buyer Address Line 2=, Buyer Postal Zone=, Buyer City Name=, Buyer State=, Buyer Country=, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=, ClassificationClass=, Description of Product or Service=, Country of Origin=, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Invoice failed: Invoice_Row_7 expected [true] but found [false]
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice D...)">
+                  </a> <!-- validateInvoice(Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice D...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_3,{e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice Date=06-12-2025, e-Invoice Time=23:59:59, Invoice Currency Code=MYR, Payment Mode=2, Supplier Bank Account Number=TEMP-124, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901235, Supplier Business Registration Number=Passport, Supplier SST Registration Number=A123456790, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=1111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456790, Supplier Address Line 1=124 Tech Park, Supplier Address Line 2=Block B, Floor 3, Supplier Postal Zone=Nil, Supplier City Name=43001, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MY, Buyer contact point (Person Name)=PCS, Buyer e-mail=, Buyer Contact Number=, Buyer Address Line 0=, Buyer Address Line 1=, Buyer Address Line 2=, Buyer Postal Zone=, Buyer City Name=, Buyer State=, Buyer Country=, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=, ClassificationClass=, Description of Product or Service=, Country of Origin=, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Invoice failed: Invoice_Row_3 expected [true] but found [false]
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_6, {e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice D...)">
+                  </a> <!-- validateInvoice(Invoice_Row_6, {e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice D...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_6,{e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice Date=06-15-2027, e-Invoice Time=12:65:02, Invoice Currency Code=MYR, Payment Mode=, Supplier Bank Account Number=, Supplier Name=, Supplier TIN=, Supplier Category=, Supplier Business Registration Number=, Supplier SST Registration Number=, Supplier Tourism Tax Registration Number=, Supplier e-mail=, Supplier Malaysia Standard Industrial Classification (MSIC) Code=, Supplier Business Activity Description=, Supplier Contact Number=, Supplier Address Line 0=, Supplier Address Line 1=, Supplier Address Line 2=, Supplier Postal Zone=, Supplier City Name=, Supplier State=, Supplier Country=, Buyer Name=, Buyer TIN=, Buyer Category=, Buyer Subcategory=, Buyer Business Registration Number=, Buyer SST Registration Number=, Buyer contact point (Person Name)=, Buyer e-mail=, Buyer Contact Number=, Buyer Address Line 0=, Buyer Address Line 1=, Buyer Address Line 2=, Buyer Postal Zone=, Buyer City Name=, Buyer State=, Buyer Country=, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=, ClassificationClass=, Description of Product or Service=, Country of Origin=, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Invoice failed: Invoice_Row_6 expected [true] but found [false]
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice D...)">
+                  </a> <!-- validateInvoice(Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice D...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_4,{e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice Date=06-15-2025, e-Invoice Time=12:65:00, Invoice Currency Code=MYR, Payment Mode=3.0, Supplier Bank Account Number=TEMP-125, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901236, Supplier Business Registration Number=SST, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=SST123456791, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=10111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456791, Supplier Address Line 1=125 Tech Park, Supplier Address Line 2=Block B, Floor 4, Supplier Postal Zone=Nil, Supplier City Name=43002, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=9999999999, Buyer Contact Number=2, Buyer Address Line 0=1E+15, Buyer Address Line 1=9999999999, Buyer Address Line 2=1E+18, Buyer Postal Zone=1E+14, Buyer City Name=9999999999, Buyer State=1E+22, Buyer Country=SR1234567890, Sum of Invoice line net amount=1E+22, Sum of allowances on document level=1.23457E+19, Total Fee / Charge Amount=X...X, Total Net Amount=LINE1234567890123456789012345, Total Excluding Tax=10000000000, Total Tax Amount=TOOLONGCLASS, Total Including Tax=A...A (501 chars), Paid amount=MYSIA, Rounding amount=999999.99, Total Payable Amount=9999999, Total Discount Value=MEGA, Invoice Additional Discount Amount=999999.9, Invoice Additional Fee Amount=XST, Total number of invoice lines=XX, Doc Total Taxable Amount Per Tax Type=999, Doc TaxCategory Id=999999, Doc Total Tax Amount Per Tax Type=Invalid Reason, Doc TAX category rate=1E+15, Details of Tax Exemption=9223372036854775807, InvoiceLineID=9999999, ClassificationCode=999999.99, ClassificationClass=XSRLONG, Description of Product or Service=SCHMEXTRA, Country of Origin=AGENCYTOOLONG123, Unit Price=AGENCYCODETOOLONG123, Quantity=XST, Measurement=XX, Subtotal=NameWithMoreThan300Characters_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, SST Tax Category=ID09876543211234567890, Tax Type=SSTSSTSSTSSTSSTSSTSSTSSTSSTSSTSSTS, Tax Rate=Mr. Big Boss, Tax Amount=, Line Total Excluding Tax=Line1, Line Invoice line net amount=Line2, Net Amount=12345678901, TaxCategory Id=12345678901234, TaxCategoryschemeID=@!#WrongCat, TaxCategoryschemeAgencyID=Sub!!, TaxCategoryschemeAgencycode=BRN1234567890123456789012345, Amount Exempted from Tax=Lonaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Template Id=CityWithExcessLengthMoreThan100})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Invoice failed: Invoice_Row_4 expected [true] but found [false]
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Invoice_Validation_Suite-class-failed -->
           <div class="suite-Invoice_Validation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,10 +238,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateInvoice(run)">
-                  </a> <!-- validateInvoice(run) -->
+                  <a name="validateInvoice(Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)">
+                  </a> <!-- validateInvoice(Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...) -->
                   <span class="method-name">validateInvoice</span>
-                  <span class="parameters">(run)</span>
+                  <span class="parameters">(Invoice_Row_5,{e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=13})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvoice(Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)">
+                  </a> <!-- validateInvoice(Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...) -->
+                  <span class="method-name">validateInvoice</span>
+                  <span class="parameters">(Invoice_Row_1,{e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=0, Sum of allowances on document level=0, Total Fee / Charge Amount=0, Total Net Amount=0, Total Excluding Tax=0, Total Tax Amount=0, Total Including Tax=0, Paid amount=, Rounding amount=, Total Payable Amount=0, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=1, Doc Total Taxable Amount Per Tax Type=0, Doc TaxCategory Id=06, Doc Total Tax Amount Per Tax Type=0, Doc TAX category rate=0, Details of Tax Exemption=, InvoiceLineID=1, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=0, Quantity=1, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=0, Tax Amount=0, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=0, Template Id=13})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +309,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateInvoice')
 data.setCell(0, 2, 'validator.InvoiceValidationTest')
-data.setCell(0, 3, 27);
+data.setCell(0, 3, 25);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateInvoice')
+data.setCell(1, 2, 'validator.InvoiceValidationTest')
+data.setCell(1, 3, 18);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateInvoice')
+data.setCell(2, 2, 'validator.InvoiceValidationTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateInvoice')
+data.setCell(3, 2, 'validator.InvoiceValidationTest')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateInvoice')
+data.setCell(4, 2, 'validator.InvoiceValidationTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateInvoice')
+data.setCell(5, 2, 'validator.InvoiceValidationTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateInvoice')
+data.setCell(6, 2, 'validator.InvoiceValidationTest')
+data.setCell(6, 3, 3);
 window.suiteTableData['Invoice_Validation_Suite']= { tableData: data, tableDiv: 'times-div-Invoice_Validation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 ms</span>
+              <span class="suite-total-time">Total running time: 64 ms</span>
               <div id="times-div-Invoice_Validation_Suite">
               </div> <!-- times-div-Invoice_Validation_Suite -->
             </div> <!-- times-div -->
@@ -226,12 +370,46 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">validator.InvoiceValidationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateInvoice(run)</span>
+                <span class="method-name">validateInvoice(Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateInvoice(Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice D...)</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateInvoice(Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice D...)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateInvoice(Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice D...)</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateInvoice(Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Dat...)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateInvoice(Invoice_Row_6, {e-Invoice Version=1.2, e-Invoice Type Code=09, e-Invoice Number=INV-005, e-Invoice D...)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateInvoice(Invoice_Row_7, {e-Invoice Version=1.3, e-Invoice Type Code=10, e-Invoice Number=INV-006, e-Invoice D...)</span>
+                <span class="method-start">101 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">526 ms</span>
+                <span class="method-start">891 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

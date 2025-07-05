@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="validator.InvoiceValidationTest" time="1.9" tests="5" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\PC\eclipse-workspace\InvoiceValidation\target\test-classes;C:\Users\PC\eclipse-workspace\InvoiceValidation\target\classes;C:\Users\PC\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\PC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\PC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\PC\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\PC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\PC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\PC\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\PC\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\PC\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\PC\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\PC\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\PC\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\PC\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\PC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.15+6\bin"/>
+    <property name="sun.java.command" value="C:\Users\PC\AppData\Local\Temp\surefire6826005379871282997\surefirebooter-20250703125454185_3.jar C:\Users\PC\AppData\Local\Temp\surefire6826005379871282997 2025-07-03T12-54-53_932-jvmRun1 surefire-20250703125454185_1tmp surefire_0-20250703125454185_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\PC\eclipse-workspace\InvoiceValidation\target\test-classes;C:\Users\PC\eclipse-workspace\InvoiceValidation\target\classes;C:\Users\PC\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\PC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\PC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\PC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\PC\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\PC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\PC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\PC\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\PC\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\PC\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\PC\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\PC\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\PC\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\PC\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\PC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.15+6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\PC\eclipse-workspace\InvoiceValidation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PC\AppData\Local\Temp\surefire6826005379871282997\surefirebooter-20250703125454185_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6"/>
+    <property name="user.name" value="PC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.15+6"/>
+    <property name="localRepository" value="C:\Users\PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="C:\Users\PC\eclipse-workspace\InvoiceValidation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.15+6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\apache-maven-3.9.10/bin;C:\Program Files\Java\jdk-17.0.15+6/bin;C:\Program Files\Java\jdk-17.0.15+6/bin;C:\Program Files\Java\jdk-17.0.15+6\bin;C:\Sage\Sage300\RUNTIME;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\PuTTY\;D:\Git\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\dotnet\;D:\apache-maven-3.9.10\bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.15+6"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="validateInvoice[Invoice_Row_1, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=0, Sum of allowances on document level=0, Total Fee / Charge Amount=0, Total Net Amount=0, Total Excluding Tax=0, Total Tax Amount=0, Total Including Tax=0, Paid amount=, Rounding amount=, Total Payable Amount=0, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=1, Doc Total Taxable Amount Per Tax Type=0, Doc TaxCategory Id=06, Doc Total Tax Amount Per Tax Type=0, Doc TAX category rate=0, Details of Tax Exemption=, InvoiceLineID=1, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=0, Quantity=1, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=0, Tax Amount=0, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=0, Template Id=13}](1)" classname="validator.InvoiceValidationTest" time="0.01">
+    <system-out><![CDATA[ðŸ”� Validating: Invoice_Row_1
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="validateInvoice[Invoice_Row_2, {e-Invoice Version=1.0, e-Invoice Type Code=02, e-Invoice Number=INV-001, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=01, Supplier Bank Account Number=TEMP-123, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=C262072927020, Supplier Business Registration Number=BRN, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=11011, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456789, Supplier Address Line 1=123 Tech Park, Supplier Address Line 2=Block B, Floor 2, Supplier Postal Zone=Nil, Supplier City Name=43000, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=530, Buyer Contact Number=0, Buyer Address Line 0=530, Buyer Address Line 1=0, Buyer Address Line 2=0, Buyer Postal Zone=0, Buyer City Name=1, Buyer State=500, Buyer Country=SR01, Sum of Invoice line net amount=30, Sum of allowances on document level=6, Total Fee / Charge Amount=Exempted Goods, Total Net Amount=Line001, Total Excluding Tax=1001, Total Tax Amount=Goods, Total Including Tax=Lenovo Laptop, Paid amount=MYS, Rounding amount=500, Total Payable Amount=1, Total Discount Value=EA, Invoice Additional Discount Amount=500, Invoice Additional Fee Amount=SST, Total number of invoice lines=SR, Doc Total Taxable Amount Per Tax Type=6, Doc TaxCategory Id=30, Doc Total Tax Amount Per Tax Type=Zero-rated under Section 56, Doc TAX category rate=500, Details of Tax Exemption=60123456789, InvoiceLineID=500, ClassificationCode=500, ClassificationClass=SR01, Description of Product or Service=TAXSCHEME01, Country of Origin=MYAGENCYID, Unit Price=MYAGENCYCODE, Quantity=SST, Measurement=SR, Subtotal=Ram Kumar, SST Tax Category=201901029037, Tax Type=SST123456, Tax Rate=Mr. Ram, Tax Amount=ram.kumar@email.com, Line Total Excluding Tax=Tower B, Line Invoice line net amount=Suite 12, Net Amount=50450, TaxCategory Id=C26072927020, TaxCategoryschemeID=Individual, TaxCategoryschemeAgencyID=Local, TaxCategoryschemeAgencycode=C26072927020, Amount Exempted from Tax=Street 1, Template Id=Kuala Lumpur}](2)" classname="validator.InvoiceValidationTest" time="0.013">
+    <failure message="â�Œ Invoice failed: Invoice_Row_2 expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_2 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[ðŸ”� Validating: Invoice_Row_2
+â�Œ Field failed: Supplier TIN = ABC Sdn Bhd
+â�Œ Field failed: Supplier Business Registration Number = BRN
+â�Œ Field failed: Supplier e-mail = optional
+â�Œ Field failed: Supplier Contact Number = Software Development
+â�Œ Field failed: Buyer TIN = 1000
+â�Œ Field failed: Buyer Business Registration Number = 0
+â�Œ Field failed: Buyer e-mail = 530
+â�Œ Field failed: Buyer Contact Number = 0
+â�Œ Field failed: ClassificationClass = SR01
+]]></system-out>
+  </testcase>
+  <testcase name="validateInvoice[Invoice_Row_3, {e-Invoice Version=1.0, e-Invoice Type Code=03, e-Invoice Number=INV-002, e-Invoice Date=06-12-2025, e-Invoice Time=23:59:59, Invoice Currency Code=MYR, Payment Mode=2, Supplier Bank Account Number=TEMP-124, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901235, Supplier Business Registration Number=Passport, Supplier SST Registration Number=A123456790, Supplier Tourism Tax Registration Number=optional, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=1111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456790, Supplier Address Line 1=124 Tech Park, Supplier Address Line 2=Block B, Floor 3, Supplier Postal Zone=Nil, Supplier City Name=43001, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MY, Buyer contact point (Person Name)=PCS, Buyer e-mail=, Buyer Contact Number=, Buyer Address Line 0=, Buyer Address Line 1=, Buyer Address Line 2=, Buyer Postal Zone=, Buyer City Name=, Buyer State=, Buyer Country=, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=, ClassificationClass=, Description of Product or Service=, Country of Origin=, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=}](3)" classname="validator.InvoiceValidationTest" time="0.005">
+    <failure message="â�Œ Invoice failed: Invoice_Row_3 expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_3 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[ðŸ”� Validating: Invoice_Row_3
+â�Œ Field failed: e-Invoice Date = 06-12-2025
+â�Œ Field failed: Payment Mode = 2
+â�Œ Field failed: Supplier TIN = ABC Sdn Bhd
+â�Œ Field failed: Supplier Business Registration Number = Passport
+â�Œ Field failed: Supplier e-mail = optional
+â�Œ Field failed: Supplier Contact Number = Software Development
+â�Œ Field failed: Buyer TIN = 1000
+â�Œ Field failed: Buyer Business Registration Number = 0
+â�Œ Field failed: Buyer e-mail = 
+â�Œ Field failed: Buyer Contact Number = 
+â�Œ Field failed: ClassificationClass = 
+]]></system-out>
+  </testcase>
+  <testcase name="validateInvoice[Invoice_Row_4, {e-Invoice Version=1.0, e-Invoice Type Code=07, e-Invoice Number=INV-003, e-Invoice Date=06-15-2025, e-Invoice Time=12:65:00, Invoice Currency Code=MYR, Payment Mode=3.0, Supplier Bank Account Number=TEMP-125, Supplier Name=1234567890123450112, Supplier TIN=ABC Sdn Bhd, Supplier Category=12345678901236, Supplier Business Registration Number=SST, Supplier SST Registration Number=optional, Supplier Tourism Tax Registration Number=SST123456791, Supplier e-mail=optional, Supplier Malaysia Standard Industrial Classification (MSIC) Code=abc@example.com, Supplier Business Activity Description=10111, Supplier Contact Number=Software Development, Supplier Address Line 0=60123456791, Supplier Address Line 1=125 Tech Park, Supplier Address Line 2=Block B, Floor 4, Supplier Postal Zone=Nil, Supplier City Name=43002, Supplier State=Cyberjaya, Supplier Country=Selangor, Buyer Name=MYS, Buyer TIN=1000, Buyer Category=60, Buyer Subcategory=1060, Buyer Business Registration Number=0, Buyer SST Registration Number=MYS, Buyer contact point (Person Name)=PCS, Buyer e-mail=9999999999, Buyer Contact Number=2, Buyer Address Line 0=1E+15, Buyer Address Line 1=9999999999, Buyer Address Line 2=1E+18, Buyer Postal Zone=1E+14, Buyer City Name=9999999999, Buyer State=1E+22, Buyer Country=SR1234567890, Sum of Invoice line net amount=1E+22, Sum of allowances on document level=1.23457E+19, Total Fee / Charge Amount=X...X, Total Net Amount=LINE1234567890123456789012345, Total Excluding Tax=10000000000, Total Tax Amount=TOOLONGCLASS, Total Including Tax=A...A (501 chars), Paid amount=MYSIA, Rounding amount=999999.99, Total Payable Amount=9999999, Total Discount Value=MEGA, Invoice Additional Discount Amount=999999.9, Invoice Additional Fee Amount=XST, Total number of invoice lines=XX, Doc Total Taxable Amount Per Tax Type=999, Doc TaxCategory Id=999999, Doc Total Tax Amount Per Tax Type=Invalid Reason, Doc TAX category rate=1E+15, Details of Tax Exemption=9223372036854775807, InvoiceLineID=9999999, ClassificationCode=999999.99, ClassificationClass=XSRLONG, Description of Product or Service=SCHMEXTRA, Country of Origin=AGENCYTOOLONG123, Unit Price=AGENCYCODETOOLONG123, Quantity=XST, Measurement=XX, Subtotal=NameWithMoreThan300Characters_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, SST Tax Category=ID09876543211234567890, Tax Type=SSTSSTSSTSSTSSTSSTSSTSSTSSTSSTSSTS, Tax Rate=Mr. Big Boss, Tax Amount=, Line Total Excluding Tax=Line1, Line Invoice line net amount=Line2, Net Amount=12345678901, TaxCategory Id=12345678901234, TaxCategoryschemeID=@!#WrongCat, TaxCategoryschemeAgencyID=Sub!!, TaxCategoryschemeAgencycode=BRN1234567890123456789012345, Amount Exempted from Tax=Lonaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Template Id=CityWithExcessLengthMoreThan100}](4)" classname="validator.InvoiceValidationTest" time="0.006">
+    <failure message="â�Œ Invoice failed: Invoice_Row_4 expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: â�Œ Invoice failed: Invoice_Row_4 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at validator.InvoiceValidationTest.validateInvoice(InvoiceValidationTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[ðŸ”� Validating: Invoice_Row_4
+â�Œ Field failed: e-Invoice Type Code = 07
+â�Œ Field failed: e-Invoice Date = 06-15-2025
+â�Œ Field failed: Payment Mode = 3.0
+â�Œ Field failed: Supplier TIN = ABC Sdn Bhd
+â�Œ Field failed: Supplier Business Registration Number = SST
+â�Œ Field failed: Supplier e-mail = optional
+â�Œ Field failed: Supplier Contact Number = Software Development
+â�Œ Field failed: Buyer TIN = 1000
+â�Œ Field failed: Buyer Business Registration Number = 0
+â�Œ Field failed: Buyer e-mail = 9999999999
+â�Œ Field failed: Buyer Contact Number = 2
+â�Œ Field failed: ClassificationClass = XSRLONG
+â�Œ Field failed: Template Id = CityWithExcessLengthMoreThan100
+]]></system-out>
+  </testcase>
+  <testcase name="validateInvoice[Invoice_Row_5, {e-Invoice Version=1.0, e-Invoice Type Code=01, e-Invoice Number=INV02, e-Invoice Date=2025-06-30, e-Invoice Time=25:00:00, Invoice Currency Code=MYR, Payment Mode=03, Supplier Bank Account Number=, Supplier Name=Advintek Consulting Services Sdn. Bhd., Supplier TIN=C26072927020, Supplier Category=BRN, Supplier Business Registration Number=201901029037, Supplier SST Registration Number=NA, Supplier Tourism Tax Registration Number=NA, Supplier e-mail=info@advintek.com.my, Supplier Malaysia Standard Industrial Classification (MSIC) Code=82990, Supplier Business Activity Description=Information Communication Technology (ICT) system security, Supplier Contact Number=60356149710, Supplier Address Line 0=LOT G1.PT.10A, SUNWAY PYRAMID MALL,, Supplier Address Line 1=NO.3 JALAN PJS 11/15,, Supplier Address Line 2=, Supplier Postal Zone=47500, Supplier City Name=SUBANG JAYA, Supplier State=10, Supplier Country=MYS, Buyer Name=JPS FASHIONS (MALAYSIA) SDN. BHD., Buyer TIN=C20307408040, Buyer Category=BRN, Buyer Subcategory=, Buyer Business Registration Number=201901029037, Buyer SST Registration Number=NA, Buyer contact point (Person Name)=, Buyer e-mail=einvoice@jpsfashions.com, Buyer Contact Number=55799595944, Buyer Address Line 0=Unit #35-01B , Q Sentral No.2A,, Buyer Address Line 1=Jalan Stesen Sentral 2,, Buyer Address Line 2=Kuala Lumpur Sentral,, Buyer Postal Zone=50470, Buyer City Name=Kuala Lumpur, Buyer State=14, Buyer Country=MYS, Sum of Invoice line net amount=, Sum of allowances on document level=, Total Fee / Charge Amount=, Total Net Amount=, Total Excluding Tax=, Total Tax Amount=, Total Including Tax=, Paid amount=, Rounding amount=, Total Payable Amount=, Total Discount Value=, Invoice Additional Discount Amount=, Invoice Additional Fee Amount=, Total number of invoice lines=, Doc Total Taxable Amount Per Tax Type=, Doc TaxCategory Id=, Doc Total Tax Amount Per Tax Type=, Doc TAX category rate=, Details of Tax Exemption=, InvoiceLineID=, ClassificationCode=022, ClassificationClass=CLASS, Description of Product or Service=OTHERS, Country of Origin=MYS, Unit Price=, Quantity=, Measurement=, Subtotal=, SST Tax Category=, Tax Type=, Tax Rate=, Tax Amount=, Line Total Excluding Tax=, Line Invoice line net amount=, Net Amount=, TaxCategory Id=, TaxCategoryschemeID=, TaxCategoryschemeAgencyID=, TaxCategoryschemeAgencycode=, Amount Exempted from Tax=, Template Id=13}](5)" classname="validator.InvoiceValidationTest" time="0.002">
+    <system-out><![CDATA[ðŸ”� Validating: Invoice_Row_5
+]]></system-out>
+  </testcase>
+</testsuite>

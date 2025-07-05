@@ -9,7 +9,7 @@
       <class name="validator.InvoiceValidationTest">
         <methods>
           <include name="afterSuite"/>
-          <include name="validateInvoice" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="validateInvoice" invocation-numbers="1 2 3 5 6"/>
         </methods>
       </class> <!-- validator.InvoiceValidationTest -->
     </classes>
